@@ -17,234 +17,114 @@
     :root {
       --bg: #f8f9fa;
       --surface: #ffffff;
-      --border: #e5e7eb;
-      --primary: #111827;
-      --secondary: #6b7280;
-      --accent: #b48e4b; /* Dorado Mérida */
+      --border: #e2e8f0;
+      --primary: #0f172a;
+      --secondary: #64748b;
+      --accent: #b48e4b;
+      --accent-light: rgba(180, 142, 75, 0.1);
       --radius: 12px;
-      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1);
       --shadow-premium: 0 10px 15px -3px rgb(0 0 0 / 0.05), 0 4px 6px -4px rgb(0 0 0 / 0.05);
       --max-w: 1200px;
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background: var(--bg);
-      color: var(--primary);
-      line-height: 1.5;
-      -webkit-font-smoothing: antialiased;
-    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--primary); line-height: 1.5; -webkit-font-smoothing: antialiased; }
 
     /* ── HEADER ── */
-    .site-header {
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      z-index: 500;
-    }
-
-    .header-inner {
-      max-width: var(--max-w);
-      margin: 0 auto;
-      padding: 0 1.5rem;
-      height: 64px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .brand {
-      display: flex;
-      flex-direction: column;
-      text-decoration: none;
-      color: inherit;
-      line-height: 1.1;
-    }
-
-    .brand-xyz {
-      font-size: .65rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: .2em;
-      color: var(--accent);
-    }
-
-    .brand-title {
-      font-size: 1.1rem;
-      font-weight: 800;
-      letter-spacing: -.02em;
-    }
-
-    .brand-title em {
-      font-style: normal;
-      font-weight: 400;
-      color: var(--secondary);
-    }
-
+    .site-header { background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 500; }
+    .header-inner { max-width: var(--max-w); margin: 0 auto; padding: 0 1.5rem; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .brand { display: flex; flex-direction: column; text-decoration: none; color: inherit; line-height: 1.1; }
+    .brand-xyz { font-size: .65rem; font-weight: 700; text-transform: uppercase; letter-spacing: .2em; color: var(--accent); }
+    .brand-title { font-size: 1.1rem; font-weight: 800; letter-spacing: -.02em; }
+    .brand-title em { font-style: normal; font-weight: 400; color: var(--secondary); }
     .nav-links { display: flex; gap: 1.25rem; }
-    .nav-links a {
-      font-size: .8rem;
-      font-weight: 600;
-      text-decoration: none;
-      color: var(--secondary);
-      transition: color .2s;
-    }
+    .nav-links a { font-size: .8rem; font-weight: 600; text-decoration: none; color: var(--secondary); transition: color .2s; }
     .nav-links a:hover { color: var(--primary); }
 
     /* ── HERO ── */
-    .hero-section {
-      padding: 3rem 1.5rem 2rem;
-      max-width: var(--max-w);
-      margin: 0 auto;
-      text-align: left;
-    }
-
-    .hero-eyebrow {
-      font-size: .75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: .15em;
-      color: var(--accent);
-      margin-bottom: .75rem;
-    }
-
-    .hero-title {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2.5rem, 8vw, 3.5rem);
-      font-weight: 700;
-      line-height: 1.1;
-      letter-spacing: -0.02em;
-      color: var(--primary);
-      margin-bottom: 1rem;
-    }
-
+    .hero-section { padding: 3rem 1.5rem 2rem; max-width: var(--max-w); margin: 0 auto; text-align: left; }
+    .hero-eyebrow { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .15em; color: var(--accent); margin-bottom: .75rem; }
+    .hero-title { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 8vw, 3.5rem); font-weight: 700; line-height: 1.1; letter-spacing: -0.02em; color: var(--primary); margin-bottom: 1rem; }
     .hero-title span { font-style: italic; color: var(--accent); font-weight: 400; }
 
     /* ── FILTERS ── */
-    .filter-bar {
-      max-width: var(--max-w);
-      margin: 0 auto 2rem;
-      padding: 0 1.5rem;
-    }
-
-    .filter-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.5rem;
-      box-shadow: var(--shadow-sm);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-      align-items: flex-end;
-    }
-
-    .filter-group { display: flex; flex-direction: column; gap: 0.5rem; flex: 1; min-width: 250px; }
-    .filter-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--secondary); display: flex; justify-content: space-between; }
+    .filter-bar { max-width: var(--max-w); margin: 0 auto 2rem; padding: 0 1.5rem; }
+    .filter-card { background: var(--surface); border: 1.5px solid var(--border); border-radius: 16px; padding: 1.5rem; box-shadow: var(--shadow-sm); }
     
-    input[type=range] {
-      width: 100%;
-      accent-color: var(--accent);
-      cursor: pointer;
+    .search-row { display: flex; gap: 1rem; margin-bottom: 1.5rem; }
+    .search-input-wrapper { flex-grow: 1; position: relative; }
+    .search-input { 
+      width: 100%; padding: 12px 16px; border-radius: 10px; border: 1.5px solid var(--border); 
+      font-size: 1rem; font-family: inherit; transition: all 0.2s; background: #fff;
     }
+    .search-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
+
+    .btn-advanced {
+      background: #f1f5f9; border: 1.5px solid var(--border); color: var(--primary);
+      padding: 0 1.25rem; border-radius: 10px; font-weight: 700; font-size: 0.85rem;
+      cursor: pointer; transition: all 0.2s; white-space: nowrap; height: 50px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .btn-advanced:hover { border-color: var(--accent); color: var(--accent); }
+    .btn-advanced.active { background: var(--primary); color: white; border-color: var(--primary); }
+
+    .advanced-panel { 
+      display: none; grid-template-columns: repeat(2, 1fr); gap: 1.25rem;
+      padding-top: 1.5rem; border-top: 1px dashed var(--border); margin-top: 1.5rem;
+    }
+    .advanced-panel.show { display: grid; }
+
+    .filter-group { display: flex; flex-direction: column; gap: 0.5rem; }
+    .filter-label { font-size: 0.65rem; font-weight: 800; text-transform: uppercase; color: var(--secondary); letter-spacing: 0.05em; display: flex; justify-content: space-between; }
+    
+    .filter-select, .filter-num { 
+      width: 100%; padding: 10px 12px; border-radius: 8px; border: 1.5px solid var(--border); 
+      font-family: inherit; font-size: 0.95rem; color: var(--primary); background: #fff;
+      -webkit-appearance: none; appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 12px center; background-size: 14px;
+      padding-right: 36px; /* Para que no se corte el texto */
+    }
+    .filter-num { background-image: none; padding-right: 12px; }
+
+    .price-range-wrapper { margin-top: 1.25rem; }
+    .range-val { font-weight: 800; color: var(--accent); font-size: 1.1rem; }
+    input[type=range] { width: 100%; accent-color: var(--accent); cursor: pointer; }
 
     /* ── GRID ── */
-    .results-grid {
-      max-width: var(--max-w);
-      margin: 0 auto;
-      padding: 0 1.5rem 4rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 1.5rem;
-    }
+    .results-grid { max-width: var(--max-w); margin: 0 auto; padding: 0 1.5rem 4rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; }
 
     .property-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-      box-shadow: var(--shadow-sm);
-      transition: transform 0.2s, box-shadow 0.2s;
-      display: flex;
-      flex-direction: column;
-      text-decoration: none;
-      color: inherit;
+      background: var(--surface); border: 1px solid var(--border); border-radius: 16px; overflow: hidden;
+      box-shadow: var(--shadow-sm); transition: all 0.3s ease; display: flex; flex-direction: column;
+      text-decoration: none; color: inherit;
     }
-
-    .property-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-premium);
-    }
-
-    .card-img-box {
-      aspect-ratio: 16 / 10;
-      background: #eee;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .card-img-box img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 0.3s;
-    }
-
+    .property-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-premium); border-color: var(--accent); }
+    .card-img-box { aspect-ratio: 16 / 10; background: #eee; position: relative; overflow: hidden; }
+    .card-img-box img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
     .property-card:hover .card-img-box img { transform: scale(1.05); }
-
     .card-info { padding: 1.25rem; flex: 1; display: flex; flex-direction: column; }
     .card-source { font-size: 0.65rem; font-weight: 700; color: var(--accent); text-transform: uppercase; margin-bottom: 0.25rem; }
     .card-title { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; line-height: 1.3; }
     .card-price { font-size: 1.5rem; font-weight: 800; color: var(--primary); margin-top: auto; }
-    .card-chars { font-size: 0.8rem; color: var(--secondary); display: flex; gap: 0.75rem; margin-bottom: 1rem; }
-    .char-pill { background: #f3f4f6; padding: 2px 8px; border-radius: 4px; }
-
-    /* ── UTILS ── */
-    .empty-state { text-align: center; padding: 4rem 1.5rem; grid-column: 1 / -1; }
-    .empty-title { font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 1rem; }
+    .card-chars { font-size: 0.8rem; color: var(--secondary); display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+    .char-pill { background: #f1f5f9; color: #475569; padding: 3px 10px; border-radius: 6px; font-weight: 600; font-size: 0.75rem; }
 
     /* ── FOOTER ── */
-    .site-footer {
-      text-align: center;
-      padding: 60px 20px;
-      border-top: 1px solid var(--border);
-      background: var(--surface);
-      margin-top: 60px;
-    }
+    .site-footer { text-align: center; padding: 60px 20px; border-top: 1px solid var(--border); background: var(--surface); margin-top: 60px; }
+    .footer-brand { font-size: 1.1rem; font-weight: 700; color: #334155; margin-bottom: 12px; display: block; }
+    .footer-desc { font-size: 0.9rem; color: #64748b; max-width: 800px; margin: 0 auto 20px; line-height: 1.6; }
+    .footer-credits { font-size: 1rem; color: #334155; margin-top: 20px; }
+    .footer-credits a { color: var(--accent); text-decoration: none; font-weight: 700; }
 
-    .footer-brand {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: #334155;
-      margin-bottom: 12px;
-      display: block;
-    }
-
-    .footer-desc {
-      font-size: 0.9rem;
-      color: #64748b;
-      max-width: 800px;
-      margin: 0 auto 20px;
-      line-height: 1.6;
-    }
-
-    .footer-credits {
-      font-size: 1rem;
-      color: #334155;
-      margin-top: 20px;
-    }
-
-    .footer-credits a {
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 700;
-    }
-
-    @media (max-width: 600px) {
-      .filter-card { flex-direction: column; align-items: stretch; }
+    /* ── MOBILE ADAPTATION ── */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .search-row { flex-direction: column; }
+      .btn-advanced { width: 100%; }
+      .advanced-panel { grid-template-columns: 1fr; }
+      .hero-section { padding-top: 2rem; }
       .results-grid { grid-template-columns: 1fr; }
     }
   </style>
@@ -264,8 +144,6 @@
         <a href="https://fud0dev.github.io/EmpleoMerida/">Empleo</a>
         <a href="https://fud0dev.github.io/InflacionMerida/">Precios</a>
         <a href="https://fud0dev.github.io/LuzMerida/">Luz</a>
-        
-        
       </nav>
     </div>
   </header>
@@ -277,15 +155,62 @@
 
   <div class="filter-bar">
     <div class="filter-card">
-      <div class="filter-group">
+      
+      <!-- BUSCADOR -->
+      <div class="search-row">
+        <div class="search-input-wrapper">
+          <input type="text" id="searchInput" class="search-input" placeholder="Zona, calle o tipo de vivienda...">
+        </div>
+        <button id="toggleAdvanced" class="btn-advanced" onclick="toggleAdvanced()">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"/></svg>
+          Filtros
+        </button>
+      </div>
+
+      <!-- PRECIO -->
+      <div class="price-range-wrapper">
         <div class="filter-label">
           <span>Precio Máximo</span>
-          <span id="price-display">1.000.000 €</span>
+          <span class="range-val" id="priceDisplay">1.000.000 €</span>
         </div>
-        <input type="range" id="price-range" min="0" max="1000000" step="10000" value="1000000">
+        <input type="range" id="priceRange" min="30000" max="1000000" step="5000" value="1000000">
       </div>
-      <div id="stats-display" style="font-size: 0.8rem; color: var(--secondary); font-weight: 500;">
-        Cargando...
+
+      <!-- PANEL AVANZADO -->
+      <div id="advancedPanel" class="advanced-panel">
+        <div class="filter-group">
+          <label class="filter-label">Habitaciones</label>
+          <select id="roomsFilter" class="filter-select">
+            <option value="0">Cualquiera</option>
+            <option value="1">1+ habs.</option>
+            <option value="2">2+ habs.</option>
+            <option value="3">3+ habs.</option>
+            <option value="4">4+ habs.</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">Baños</label>
+          <select id="bathsFilter" class="filter-select">
+            <option value="0">Cualquiera</option>
+            <option value="1">1+ baño</option>
+            <option value="2">2+ baños</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">Sup. Mínima (m²)</label>
+          <input type="number" id="m2Filter" class="filter-num" placeholder="Ejem. 80">
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">Ordenación</label>
+          <select id="sortOrder" class="filter-select">
+            <option value="asc">Más barato primero</option>
+            <option value="desc">Más caro primero</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="statsDisplay" style="font-size: 0.8rem; color: var(--secondary); font-weight: 500; margin-top: 1rem;">
+        Cargando viviendas...
       </div>
     </div>
   </div>
@@ -297,7 +222,8 @@
   <footer class="site-footer">
     <span class="footer-brand">Vivienda Mérida &copy; 2026</span>
     <p class="footer-desc">
-      Aviso Legal: Proyecto desarrollado exclusivamente con fines educativos y de difusión cultural. Toda la información pertenece a sus respectivos autores y fuentes oficiales.
+      Aviso Legal: Proyecto desarrollado exclusivamente con fines educativos y de difusión cultural. Toda la información
+      pertenece a sus respectivos autores y fuentes oficiales.
     </p>
     <p class="footer-credits">
       Creado por <a href="https://github.com/fud0dev" target="_blank">fud0dev</a>
@@ -307,64 +233,99 @@
   <script>
     let g_data = [];
     const grid = document.getElementById('grid');
-    const range = document.getElementById('price-range');
-    const display = document.getElementById('price-display');
-    const stats = document.getElementById('stats-display');
+    const priceRange = document.getElementById('priceRange');
+    const priceDisplay = document.getElementById('priceDisplay');
+    const statsDisplay = document.getElementById('statsDisplay');
 
     async function init() {
       try {
         const res = await fetch('data/vivienda.json?' + Date.now());
         const json = await res.json();
         g_data = json.properties;
-        
-        render(1000000);
-        
-        range.addEventListener('input', (e) => {
-          const val = parseInt(e.target.value);
-          display.textContent = val === 1000000 ? 'Más de 1.000.000 €' : new Intl.NumberFormat('es-ES').format(val) + ' €';
-          render(val);
+
+        // Listeners
+        const filterIds = ['priceRange', 'searchInput', 'roomsFilter', 'bathsFilter', 'm2Filter', 'sortOrder'];
+        filterIds.forEach(id => {
+          document.getElementById(id).addEventListener('input', filterProperties);
         });
+
+        filterProperties();
 
       } catch (e) {
         console.error("Error loading data:", e);
-        grid.innerHTML = `<div class="empty-state">Error al cargar datos. Comprueba la conexión.</div>`;
+        grid.innerHTML = `<div class="empty-state" style="text-align:center; padding: 4rem;">Error al cargar datos inmobiliarios.</div>`;
       }
     }
 
-    function render(maxPrice) {
-      const filtered = g_data.filter(p => p.price_val <= maxPrice || maxPrice === 1000000);
-      stats.textContent = `Mostrando ${filtered.length} de ${g_data.length} resultados`;
+    function toggleAdvanced() {
+      const panel = document.getElementById('advancedPanel');
+      const btn = document.getElementById('toggleAdvanced');
+      panel.classList.toggle('show');
+      btn.classList.toggle('active');
+    }
 
-      if (filtered.length === 0) {
+    function extractNum(chars, pattern) {
+      const match = chars.find(c => c.toLowerCase().includes(pattern));
+      if (!match) return 0;
+      return parseInt(match.replace(/\./g, '').replace(/[^0-9]/g, '')) || 0;
+    }
+
+    function filterProperties() {
+      const maxPrice = parseInt(priceRange.value);
+      const query = document.getElementById('searchInput').value.toLowerCase().trim();
+      const minRooms = parseInt(document.getElementById('roomsFilter').value);
+      const minBaths = parseInt(document.getElementById('bathsFilter').value);
+      const minM2 = parseInt(document.getElementById('m2Filter').value) || 0;
+      const order = document.getElementById('sortOrder').value;
+
+      priceDisplay.textContent = maxPrice === 1000000 ? 'Sin límite' : maxPrice.toLocaleString() + ' €';
+
+      let filtered = g_data.filter(p => {
+        const matchesPrice = p.price_val <= maxPrice || maxPrice === 1000000;
+        const matchesQuery = !query || p.title.toLowerCase().includes(query) || (p.agency && p.agency.toLowerCase().includes(query));
+        const matchesRooms = extractNum(p.chars, 'hab') >= minRooms;
+        const matchesBaths = extractNum(p.chars, 'bañ') >= minBaths;
+        const matchesM2 = extractNum(p.chars, 'm²') >= minM2;
+
+        return matchesPrice && matchesQuery && matchesRooms && matchesBaths && matchesM2;
+      });
+
+      // Ordenación
+      filtered.sort((a,b) => order === 'asc' ? a.price_val - b.price_val : b.price_val - a.price_val);
+
+      render(filtered);
+    }
+
+    function render(list) {
+      statsDisplay.textContent = `Viviendas encontradas: ${list.length}`;
+
+      if (list.length === 0) {
         grid.innerHTML = `
-          <div class="empty-state">
-            <h2 class="empty-title">Sin resultados</h2>
-            <p>No hay viviendas que coincidan con este rango de precio.</p>
+          <div class="empty-state" style="text-align:center; padding: 4rem; grid-column: 1 / -1;">
+            <h2 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 1rem;">Sin resultados</h2>
+            <p style="color: var(--secondary);">No hay viviendas que coincidan con tus filtros actuales.</p>
           </div>
         `;
         return;
       }
 
-      grid.innerHTML = filtered.map(p => {
-        // Clean chars
-        const topChars = p.chars.slice(0, 3).map(c => `<span class="char-pill">${c}</span>`).join('');
-        
-        return `
-          <a href="${p.link}" class="property-card" target="_blank">
-            <div class="card-img-box">
-              <img src="${p.img || 'https://via.placeholder.com/400x250?text=Vivienda+Mérida'}" 
-                   onerror="this.src='https://via.placeholder.com/400x250?text=Imagen+no+disponible'"
-                   alt="${p.title}">
+      grid.innerHTML = list.map(p => `
+        <a href="${p.link}" class="property-card" target="_blank">
+          <div class="card-img-box">
+            <img src="${p.img || 'https://via.placeholder.com/400x250?text=Vivienda+Mérida'}" 
+                 onerror="this.src='https://via.placeholder.com/400x250?text=Imagen+no+disponible'"
+                 alt="${p.title}">
+          </div>
+          <div class="card-info">
+            <div class="card-source">${p.source} · ${p.agency || 'Particular'}</div>
+            <h2 class="card-title">${p.title}</h2>
+            <div class="card-chars">
+              ${p.chars.map(c => `<span class="char-pill">${c}</span>`).join('')}
             </div>
-            <div class="card-info">
-              <div class="card-source">${p.source} · ${p.agency || 'Particular'}</div>
-              <h2 class="card-title">${p.title}</h2>
-              <div class="card-chars">${topChars}</div>
-              <div class="card-price">${p.price}</div>
-            </div>
-          </a>
-        `;
-      }).join('');
+            <div class="card-price">${p.price}</div>
+          </div>
+        </a>
+      `).join('');
     }
 
     init();
