@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ViviendaMérida · Buscador de Viviendas en Mérida</title>
+  <meta name="description"
+    content="Buscador premium de viviendas en Mérida. Encuentra pisos y casas con filtros personalizados en el ecosistema Mérida XYZ." />
+  <link rel="icon" type="image/png"
+    href="https://merida.es/wp-content/uploads/2021/06/xcropped-favicon-32x32.png.pagespeed.ic.4twhV4Os1c.png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <style>
+    /* ── RESET & TOKENS ── */
+    :root {
+      --bg: #f8f9fa;
+      --surface: #ffffff;
+      --border: #e5e7eb;
+      --primary: #111827;
+      --secondary: #6b7280;
+      --accent: #b48e4b; /* Dorado Mérida */
+      --radius: 12px;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-premium: 0 10px 15px -3px rgb(0 0 0 / 0.05), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+      --max-w: 1200px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--primary);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 500;
+    }
+
+    .header-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+      line-height: 1.1;
+    }
+
+    .brand-xyz {
+      font-size: .65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .2em;
+      color: var(--accent);
+    }
+
+    .brand-title {
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: -.02em;
+    }
+
+    .brand-title em {
+      font-style: normal;
+      font-weight: 400;
+      color: var(--secondary);
+    }
+
+    .nav-links { display: flex; gap: 1.25rem; }
+    .nav-links a {
+      font-size: .8rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: var(--secondary);
+      transition: color .2s;
+    }
+    .nav-links a:hover { color: var(--primary); }
+
+    /* ── HERO ── */
+    .hero-section {
+      padding: 3rem 1.5rem 2rem;
+      max-width: var(--max-w);
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .hero-eyebrow {
+      font-size: .75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .15em;
+      color: var(--accent);
+      margin-bottom: .75rem;
+    }
+
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.5rem, 8vw, 3.5rem);
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .hero-title span { font-style: italic; color: var(--accent); font-weight: 400; }
+
+    /* ── FILTERS ── */
+    .filter-bar {
+      max-width: var(--max-w);
+      margin: 0 auto 2rem;
+      padding: 0 1.5rem;
+    }
+
+    .filter-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: flex-end;
+    }
+
+    .filter-group { display: flex; flex-direction: column; gap: 0.5rem; flex: 1; min-width: 250px; }
+    .filter-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--secondary); display: flex; justify-content: space-between; }
+    
+    input[type=range] {
+      width: 100%;
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
+
+    /* ── GRID ── */
+    .results-grid {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .property-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .property-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-premium);
+    }
+
+    .card-img-box {
+      aspect-ratio: 16 / 10;
+      background: #eee;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card-img-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    .property-card:hover .card-img-box img { transform: scale(1.05); }
+
+    .card-info { padding: 1.25rem; flex: 1; display: flex; flex-direction: column; }
+    .card-source { font-size: 0.65rem; font-weight: 700; color: var(--accent); text-transform: uppercase; margin-bottom: 0.25rem; }
+    .card-title { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; line-height: 1.3; }
+    .card-price { font-size: 1.5rem; font-weight: 800; color: var(--primary); margin-top: auto; }
+    .card-chars { font-size: 0.8rem; color: var(--secondary); display: flex; gap: 0.75rem; margin-bottom: 1rem; }
+    .char-pill { background: #f3f4f6; padding: 2px 8px; border-radius: 4px; }
+
+    /* ── UTILS ── */
+    .empty-state { text-align: center; padding: 4rem 1.5rem; grid-column: 1 / -1; }
+    .empty-title { font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 1rem; }
+
+    /* ── FOOTER ── */
+    .site-footer {
+      text-align: center;
+      padding: 60px 20px;
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+      margin-top: 60px;
+    }
+
+    .footer-brand {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #334155;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .footer-desc {
+      font-size: 0.9rem;
+      color: #64748b;
+      max-width: 800px;
+      margin: 0 auto 20px;
+      line-height: 1.6;
+    }
+
+    .footer-credits {
+      font-size: 1rem;
+      color: #334155;
+      margin-top: 20px;
+    }
+
+    .footer-credits a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    @media (max-width: 600px) {
+      .filter-card { flex-direction: column; align-items: stretch; }
+      .results-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="https://meridaxyz.wordpress.com" class="brand">
+        <span class="brand-xyz">Mérida XYZ</span>
+        <span class="brand-title">Vivienda<em>Mérida</em></span>
+      </a>
+      <nav class="nav-links">
+        <a href="https://fud0dev.github.io/AgendaMerida/">Noticias</a>
+        <a href="https://fud0dev.github.io/LuzMerida/">Luz</a>
+        <a href="https://fud0dev.github.io/InflacionMerida/">Precios</a>
+        <a href="https://fud0dev.github.io/EmpleoMerida/">Empleo</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <p class="hero-eyebrow">Mercado Inmobiliario · Mérida XYZ</p>
+    <h1 class="hero-title">Encuentra tu <span>Hogar</span> en Mérida</h1>
+  </section>
+
+  <div class="filter-bar">
+    <div class="filter-card">
+      <div class="filter-group">
+        <div class="filter-label">
+          <span>Precio Máximo</span>
+          <span id="price-display">1.000.000 €</span>
+        </div>
+        <input type="range" id="price-range" min="0" max="1000000" step="10000" value="1000000">
+      </div>
+      <div id="stats-display" style="font-size: 0.8rem; color: var(--secondary); font-weight: 500;">
+        Cargando...
+      </div>
+    </div>
+  </div>
+
+  <main class="results-grid" id="grid">
+    <!-- JS RENDER -->
+  </main>
+
+  <footer class="site-footer">
+    <span class="footer-brand">Vivienda Mérida &copy; 2026</span>
+    <p class="footer-desc">
+      Aviso Legal: Proyecto desarrollado exclusivamente con fines educativos y de difusión cultural. Toda la información pertenece a sus respectivos autores y fuentes oficiales.
+    </p>
+    <p class="footer-credits">
+      Creado por <a href="https://github.com/fud0dev" target="_blank">fud0dev</a>
+    </p>
+  </footer>
+
+  <script>
+    let g_data = [];
+    const grid = document.getElementById('grid');
+    const range = document.getElementById('price-range');
+    const display = document.getElementById('price-display');
+    const stats = document.getElementById('stats-display');
+
+    async function init() {
+      try {
+        const res = await fetch('data/vivienda.json?' + Date.now());
+        const json = await res.json();
+        g_data = json.properties;
+        
+        render(1000000);
+        
+        range.addEventListener('input', (e) => {
+          const val = parseInt(e.target.value);
+          display.textContent = val === 1000000 ? 'Más de 1.000.000 €' : new Intl.NumberFormat('es-ES').format(val) + ' €';
+          render(val);
+        });
+
+      } catch (e) {
+        console.error("Error loading data:", e);
+        grid.innerHTML = `<div class="empty-state">Error al cargar datos. Comprueba la conexión.</div>`;
+      }
+    }
+
+    function render(maxPrice) {
+      const filtered = g_data.filter(p => p.price_val <= maxPrice || maxPrice === 1000000);
+      stats.textContent = `Mostrando ${filtered.length} de ${g_data.length} resultados`;
+
+      if (filtered.length === 0) {
+        grid.innerHTML = `
+          <div class="empty-state">
+            <h2 class="empty-title">Sin resultados</h2>
+            <p>No hay viviendas que coincidan con este rango de precio.</p>
+          </div>
+        `;
+        return;
+      }
+
+      grid.innerHTML = filtered.map(p => {
+        // Clean chars
+        const topChars = p.chars.slice(0, 3).map(c => `<span class="char-pill">${c}</span>`).join('');
+        
+        return `
+          <a href="${p.link}" class="property-card" target="_blank">
+            <div class="card-img-box">
+              <img src="${p.img || 'https://via.placeholder.com/400x250?text=Vivienda+Mérida'}" 
+                   onerror="this.src='https://via.placeholder.com/400x250?text=Imagen+no+disponible'"
+                   alt="${p.title}">
+            </div>
+            <div class="card-info">
+              <div class="card-source">${p.source} · ${p.agency || 'Particular'}</div>
+              <h2 class="card-title">${p.title}</h2>
+              <div class="card-chars">${topChars}</div>
+              <div class="card-price">${p.price}</div>
+            </div>
+          </a>
+        `;
+      }).join('');
+    }
+
+    init();
+  </script>
+</body>
+
+</html>
