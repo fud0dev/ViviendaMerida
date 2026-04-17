@@ -42,6 +42,20 @@
     .nav-links a { font-size: .8rem; font-weight: 600; text-decoration: none; color: var(--secondary); transition: color .2s; }
     .nav-links a:hover { color: var(--primary); }
 
+    .back-to-menu {
+      display: none;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--accent);
+      text-decoration: none;
+      margin-top: 0.25rem;
+      transition: opacity 0.2s;
+    }
+
+    .back-to-menu:hover {
+      opacity: 0.8;
+    }
+
     /* ── HERO ── */
     .hero-section { padding: 3rem 1.5rem 2rem; max-width: var(--max-w); margin: 0 auto; text-align: left; }
     .hero-eyebrow { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .15em; color: var(--accent); margin-bottom: .75rem; }
@@ -120,7 +134,19 @@
 
     /* ── MOBILE ADAPTATION ── */
     @media (max-width: 768px) {
+      .site-header { height: auto; }
+      .header-inner { 
+        flex-direction: column; 
+        height: auto; 
+        padding: 1.25rem 1.5rem; 
+        gap: 0.5rem; 
+      }
+      .brand { align-items: center; text-align: center; }
+      .brand-xyz { font-size: 0.7rem; }
+      .brand-title { font-size: 1.25rem; }
       .nav-links { display: none; }
+      .back-to-menu { display: block; }
+      
       .search-row { flex-direction: column; }
       .btn-advanced { width: 100%; }
       .advanced-panel { grid-template-columns: 1fr; }
@@ -137,6 +163,7 @@
       <a href="https://meridaxyz.wordpress.com" class="brand">
         <span class="brand-xyz">Mérida XYZ</span>
         <span class="brand-title">Vivienda<em>Mérida</em></span>
+        <span class="back-to-menu">← Volver al menú</span>
       </a>
       <nav class="nav-links">
         <a href="https://fud0dev.github.io/AgendaMerida/">Noticias</a>
