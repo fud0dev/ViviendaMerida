@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-04-17 07:18:36",
-  "count": 282,
+  "last_updated": "2026-04-18 06:55:57",
+  "count": 289,
   "properties": [
+    {
+      "title": "Finca rústica en Barriadas - San Andrés - Cantaranas",
+      "link": "https://www.pisos.com/comprar/finca_rustica-reina_sofia_salesianos_bodegones-63378963129_106000/",
+      "price": "25.000 €",
+      "price_val": 25000,
+      "img": "https://fotos.imghs.net/mm-wp/1060/600/1060_NI752-57600_1_202604100623385717636.jpg",
+      "chars": [
+        "10.848 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
     {
       "title": "Finca rústica en Carretera de la Ruta de la Plata, 4",
       "link": "https://www.pisos.com/comprar/finca_rustica-nueva_ciudad-62538092423_109800/",
@@ -109,11 +121,38 @@
       "source": "Pisos.com"
     },
     {
+      "title": "Finca rústica en Barriadas - San Andrés - Cantaranas",
+      "link": "https://www.pisos.com/comprar/finca_rustica-reina_sofia_salesianos_bodegones-63420250505_106000/",
+      "price": "45.000 €",
+      "price_val": 45000,
+      "img": "https://fotos.imghs.net/mm-wp/1060/500/1060_NI752-57500_1_202604100623387043691.jpg",
+      "chars": [
+        "38.389 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
       "title": "Piso en Avenida de Don Antonio Campos Hoyos",
       "link": "https://www.pisos.com/comprar/piso-nueva_ciudad-60044487687_100500/",
       "price": "49.000 €",
       "price_val": 49000,
       "img": "https://fotos.imghs.net/mm-wp/1005/058/1005_274689718058_1_2025122908124875752.jpg",
+      "chars": [
+        "3 habs.",
+        "1 baño",
+        "92 m²",
+        "4ª planta"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
+      "title": "Piso en Nueva Ciudad",
+      "link": "https://www.pisos.com/comprar/piso-nueva_ciudad-63365466590_104700/",
+      "price": "49.000 €",
+      "price_val": 49000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/539/1047_229539_1_202604171014452391435.png",
       "chars": [
         "3 habs.",
         "1 baño",
@@ -133,6 +172,18 @@
         "1 hab.",
         "1 baño",
         "35 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
+      "title": "Finca rústica en Barriadas - San Andrés - Cantaranas",
+      "link": "https://www.pisos.com/comprar/finca_rustica-reina_sofia_salesianos_bodegones-63430305722_106000/",
+      "price": "50.000 €",
+      "price_val": 50000,
+      "img": "https://fotos.imghs.net/mm-wp/1060/400/1060_NI752-57400_1_202604100623381528940.jpg",
+      "chars": [
+        "21.879 m²"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -238,20 +289,6 @@
       "source": "Pisos.com"
     },
     {
-      "title": "Chalet en Esparragalejo",
-      "link": "https://www.pisos.com/comprar/chalet-esparragalejo_centro_urbano-62548654124_106400/",
-      "price": "59.500 €",
-      "price_val": 59500,
-      "img": "https://fotos.imghs.net/mm-wp/1064/262/1064_IJ3336-100575262_1_202603300943137850962.jpg",
-      "chars": [
-        "5 habs.",
-        "2 baños",
-        "146 m²"
-      ],
-      "agency": "Particular",
-      "source": "Pisos.com"
-    },
-    {
       "title": "Casa en Carretera de Alange",
       "link": "https://www.pisos.com/comprar/casa-nueva_ciudad-54200957287_109300/",
       "price": "60.000 €",
@@ -349,6 +386,20 @@
       "source": "Pisos.com"
     },
     {
+      "title": "Finca rústica en El Prado",
+      "link": "https://www.pisos.com/comprar/finca_rustica-merida_el_prado-61734905998_104700/",
+      "price": "65.000 €",
+      "price_val": 65000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/550/1047_166550_1_202602111828287199933.jpg",
+      "chars": [
+        "1 hab.",
+        "1 baño",
+        "32 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
       "title": "Chalet en San Luis-San Juan-Santa Isabel",
       "link": "https://www.pisos.com/comprar/chalet-san_luis_san_juan_santa_isabel06800-62573798637_108500/",
       "price": "65.000 €",
@@ -366,20 +417,6 @@
       "img": "https://fotos.imghs.net/mm-wp/1060/542/1060_NI752-542_1_2025120406125275946.jpg",
       "chars": [
         "30.608 m²"
-      ],
-      "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
-      "title": "Finca rústica en El Prado",
-      "link": "https://www.pisos.com/comprar/finca_rustica-merida_el_prado-61734905998_104700/",
-      "price": "65.000 €",
-      "price_val": 65000,
-      "img": "https://fotos.imghs.net/mm-wp/1047/550/1047_166550_1_202602111828287199933.jpg",
-      "chars": [
-        "1 hab.",
-        "1 baño",
-        "32 m²"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -498,18 +535,6 @@
       "source": "Pisos.com"
     },
     {
-      "title": "Finca rústica en Barriadas - San Andrés - Cantaranas",
-      "link": "https://www.pisos.com/comprar/finca_rustica-reina_sofia_salesianos_bodegones-63335521049_106000/",
-      "price": "75.000 €",
-      "price_val": 75000,
-      "img": "https://fotos.imghs.net/mm-wp/1060/573/1060_NI752-573_1_202604080623593837071.jpg",
-      "chars": [
-        "46.577 m²"
-      ],
-      "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
       "title": "Piso en San Luis-San Juan-Santa Isabel",
       "link": "https://www.pisos.com/comprar/piso-san_luis_san_juan_santa_isabel06800-62549551610_104700/",
       "price": "75.000 €",
@@ -520,6 +545,18 @@
         "1 baño",
         "67 m²",
         "4ª planta"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
+      "title": "Finca rústica en Barriadas - San Andrés - Cantaranas",
+      "link": "https://www.pisos.com/comprar/finca_rustica-reina_sofia_salesianos_bodegones-63335521049_106000/",
+      "price": "75.000 €",
+      "price_val": 75000,
+      "img": "https://fotos.imghs.net/mm-wp/1060/573/1060_NI752-573_1_202604080623593837071.jpg",
+      "chars": [
+        "46.577 m²"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -643,21 +680,6 @@
       "source": "Pisos.com"
     },
     {
-      "title": "Piso en Los Milagros-La Corchera",
-      "link": "https://www.pisos.com/comprar/piso-los_milagros_la_corchera06800-61756565239_104700/",
-      "price": "78.000 €",
-      "price_val": 78000,
-      "img": "https://fotos.imghs.net/mm-wp/1047/600/1047_238600_0_202602181745171755481.jpeg",
-      "chars": [
-        "3 habs.",
-        "1 baño",
-        "53 m²",
-        "1ª planta"
-      ],
-      "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
       "title": "Piso en San Luis-San Juan-Santa Isabel",
       "link": "https://www.pisos.com/comprar/piso-san_luis_san_juan_santa_isabel06800-61743851317_104700/",
       "price": "78.000 €",
@@ -683,6 +705,21 @@
         "1 baño",
         "64 m²",
         "2ª planta"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
+      "title": "Piso en Los Milagros-La Corchera",
+      "link": "https://www.pisos.com/comprar/piso-los_milagros_la_corchera06800-61756565239_104700/",
+      "price": "78.000 €",
+      "price_val": 78000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/600/1047_238600_0_202602181745171755481.jpeg",
+      "chars": [
+        "3 habs.",
+        "1 baño",
+        "53 m²",
+        "1ª planta"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -747,6 +784,21 @@
       "source": "Pisos.com"
     },
     {
+      "title": "Piso en San Luis-San Juan-Santa Isabel",
+      "link": "https://www.pisos.com/comprar/piso-san_luis_san_juan_santa_isabel06800-61717300947_104700/",
+      "price": "82.000 €",
+      "price_val": 82000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/639/1047_237639_0_202602111344278091124.jpeg",
+      "chars": [
+        "2 habs.",
+        "1 baño",
+        "68 m²",
+        "2ª planta"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
       "title": "Piso en calle Pintor Alejandro Laborde, 2",
       "link": "https://www.pisos.com/comprar/piso-merida_casco_historico-54195097717_109800/",
       "price": "82.000 €",
@@ -792,6 +844,21 @@
       "source": "Pisos.com"
     },
     {
+      "title": "Piso en Casco Histórico",
+      "link": "https://www.pisos.com/comprar/piso-merida_casco_historico-61749780100_104700/",
+      "price": "85.000 €",
+      "price_val": 85000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/167/1047_237167_0_202602121245242227267.png",
+      "chars": [
+        "3 habs.",
+        "1 baño",
+        "96 m²",
+        "2ª planta"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
       "title": "Piso en Avenida de Lusitania",
       "link": "https://www.pisos.com/comprar/piso-reina_sofia_salesianos_bodegones-59192573476_527273/",
       "price": "85.900 €",
@@ -831,6 +898,20 @@
         "4 habs.",
         "2 baños",
         "131 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
+      "title": "Casa en Casco Histórico",
+      "link": "https://www.pisos.com/comprar/casa-merida_casco_historico-61726386106_104700/",
+      "price": "89.000 €",
+      "price_val": 89000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/245/1047_209245_0_202602121226522130349.jpg",
+      "chars": [
+        "2 habs.",
+        "2 baños",
+        "90 m²"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -892,21 +973,6 @@
       "source": "Pisos.com"
     },
     {
-      "title": "Piso en Avenida de las Américas",
-      "link": "https://www.pisos.com/comprar/piso-nueva_ciudad-61747550369_100500/",
-      "price": "95.000 €",
-      "price_val": 95000,
-      "img": "https://fotos.imghs.net/mm-wp/1005/953/1005_105763953_1_202602122232058606609.jpg",
-      "chars": [
-        "2 habs.",
-        "1 baño",
-        "68 m²",
-        "1ª planta"
-      ],
-      "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
       "title": "Chalet en San Luis-San Juan-Santa Isabel",
       "link": "https://www.pisos.com/comprar/chalet-san_luis_san_juan_santa_isabel06800-63374338631_527273/",
       "price": "95.000 €",
@@ -960,6 +1026,21 @@
         "1 baño",
         "39 m²",
         "Bajo"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
+      "title": "Piso en Casco Histórico",
+      "link": "https://www.pisos.com/comprar/piso-merida_casco_historico-61764086883_104700/",
+      "price": "98.000 €",
+      "price_val": 98000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/485/1047_238485_0_202602111047370422286.jpeg",
+      "chars": [
+        "3 habs.",
+        "1 baño",
+        "91 m²",
+        "2ª planta"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -1185,6 +1266,21 @@
       "source": "Pisos.com"
     },
     {
+      "title": "Piso en Poligono",
+      "link": "https://www.pisos.com/comprar/piso-nueva_ciudad-63334100240_103800/",
+      "price": "106.000 €",
+      "price_val": 106000,
+      "img": "https://fotos.imghs.net/mm-wp/1038/919/1038_0966-1919_1_202604171259014329069.jpg",
+      "chars": [
+        "3 habs.",
+        "1 baño",
+        "85 m²",
+        "1ª planta"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
       "title": "Piso en San Luis-San Juan-Santa Isabel",
       "link": "https://www.pisos.com/comprar/piso-san_luis_san_juan_santa_isabel06800-63383336166_106500/",
       "price": "106.000 €",
@@ -1197,20 +1293,6 @@
         "5ª planta"
       ],
       "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
-      "title": "Chalet en Casco Histórico",
-      "link": "https://www.pisos.com/comprar/chalet-merida_casco_historico-62549693843_106400/",
-      "price": "107.000 €",
-      "price_val": 107000,
-      "img": "https://fotos.imghs.net/mm-wp/1064/258/1064_IJ3336-100575258_1_202603300943135793239.jpg",
-      "chars": [
-        "5 habs.",
-        "1 baño",
-        "134 m²"
-      ],
-      "agency": "Particular",
       "source": "Pisos.com"
     },
     {
@@ -1285,19 +1367,6 @@
       "source": "Pisos.com"
     },
     {
-      "title": "Piso en Casco Histórico",
-      "link": "https://www.pisos.com/comprar/piso-merida_casco_historico-61735630955_100200/",
-      "price": "109.900 €",
-      "price_val": 109900,
-      "img": "https://fotos.imghs.net/mm-wp/1002/454/1002_646454_1_2026020217025415242.jpeg",
-      "chars": [
-        "3 habs.",
-        "86 m²"
-      ],
-      "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
       "title": "Casa en Casco Histórico",
       "link": "https://www.pisos.com/comprar/casa-merida_casco_historico-61694449854_104700/",
       "price": "109.900 €",
@@ -1319,6 +1388,19 @@
       "img": "https://fotos.imghs.net/mm-wp/527273/58382402079.527273/527273_58382402079_428c1e10-6922-4b0d-9cd5-9168ab71530e.jpg",
       "chars": [
         "150 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
+      "title": "Piso en Casco Histórico",
+      "link": "https://www.pisos.com/comprar/piso-merida_casco_historico-61735630955_100200/",
+      "price": "109.900 €",
+      "price_val": 109900,
+      "img": "https://fotos.imghs.net/mm-wp/1002/454/1002_646454_1_2026020217025415242.jpeg",
+      "chars": [
+        "3 habs.",
+        "86 m²"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -1583,6 +1665,21 @@
       "source": "Pisos.com"
     },
     {
+      "title": "Apartamento en Los Milagros-La Corchera",
+      "link": "https://www.pisos.com/comprar/apartamento-los_milagros_la_corchera06800-61697667802_104700/",
+      "price": "125.000 €",
+      "price_val": 125000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/615/1047_238615_0_202602201330451354394.jpeg",
+      "chars": [
+        "2 habs.",
+        "1 baño",
+        "80 m²",
+        "Bajo"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
       "title": "Apartamento en Reina Sofía-Salesianos-Bodegones",
       "link": "https://www.pisos.com/comprar/apartamento-reina_sofia_salesianos_bodegones-62549945969_104700/",
       "price": "125.000 €",
@@ -1608,21 +1705,6 @@
         "2 baños",
         "95 m²",
         "2ª planta"
-      ],
-      "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
-      "title": "Apartamento en Los Milagros-La Corchera",
-      "link": "https://www.pisos.com/comprar/apartamento-los_milagros_la_corchera06800-61697667802_104700/",
-      "price": "125.000 €",
-      "price_val": 125000,
-      "img": "https://fotos.imghs.net/mm-wp/1047/615/1047_238615_0_202602201330451354394.jpeg",
-      "chars": [
-        "2 habs.",
-        "1 baño",
-        "80 m²",
-        "Bajo"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -1668,6 +1750,20 @@
         "2 baños",
         "95 m²",
         "4ª planta"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
+      "title": "Finca rústica en calle Ba045,06894",
+      "link": "https://www.pisos.com/comprar/finca_rustica-el_carrascalejo_centro_urbano-97542019637_100100/",
+      "price": "125.000 €",
+      "price_val": 125000,
+      "img": "https://fotos.imghs.net/mm-wp/1001/839/1001_PX1356_-_86938839-86938839_1_2019091301074531250.jpg",
+      "chars": [
+        "4 habs.",
+        "1 baño",
+        "217 m²"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -1747,20 +1843,6 @@
       "source": "Pisos.com"
     },
     {
-      "title": "Casa en Casco Histórico",
-      "link": "https://www.pisos.com/comprar/casa-merida_casco_historico-63356679416_104700/",
-      "price": "127.500 €",
-      "price_val": 127500,
-      "img": "https://fotos.imghs.net/mm-wp/1047/102/1047_240102_0_202604071852486488439.jpeg",
-      "chars": [
-        "2 habs.",
-        "1 baño",
-        "80 m²"
-      ],
-      "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
       "title": "Piso en San Luis-San Juan-Santa Isabel",
       "link": "https://www.pisos.com/comprar/piso-san_luis_san_juan_santa_isabel06800-60913765951_100200/",
       "price": "127.500 €",
@@ -1770,6 +1852,20 @@
         "3 habs.",
         "1 baño",
         "116 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
+      "title": "Casa en Casco Histórico",
+      "link": "https://www.pisos.com/comprar/casa-merida_casco_historico-63356679416_104700/",
+      "price": "127.500 €",
+      "price_val": 127500,
+      "img": "https://fotos.imghs.net/mm-wp/1047/102/1047_240102_0_202604071852486488439.jpeg",
+      "chars": [
+        "2 habs.",
+        "1 baño",
+        "80 m²"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -1802,20 +1898,6 @@
       "source": "Pisos.com"
     },
     {
-      "title": "Casa en Centro",
-      "link": "https://www.pisos.com/comprar/casa-merida_casco_historico-60862796112_106000/",
-      "price": "130.000 €",
-      "price_val": 130000,
-      "img": "https://fotos.imghs.net/mm-wp/1060/400/1060_NI752-55400_1_2026013106010332732.jpg",
-      "chars": [
-        "3 habs.",
-        "1 baño",
-        "130 m²"
-      ],
-      "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
       "title": "Piso en Casco Histórico",
       "link": "https://www.pisos.com/comprar/piso-merida_casco_historico-61682316598_104700/",
       "price": "130.000 €",
@@ -1831,6 +1913,20 @@
       "source": "Pisos.com"
     },
     {
+      "title": "Casa en Centro",
+      "link": "https://www.pisos.com/comprar/casa-merida_casco_historico-60862796112_106000/",
+      "price": "130.000 €",
+      "price_val": 130000,
+      "img": "https://fotos.imghs.net/mm-wp/1060/400/1060_NI752-55400_1_2026013106010332732.jpg",
+      "chars": [
+        "3 habs.",
+        "1 baño",
+        "130 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
       "title": "Piso en Casco Histórico",
       "link": "https://www.pisos.com/comprar/piso-merida_casco_historico-55889723442_106500/",
       "price": "131.000 €",
@@ -1841,21 +1937,6 @@
         "2 baños",
         "90 m²",
         "1ª planta"
-      ],
-      "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
-      "title": "Piso en San Luis-San Juan-Santa Isabel",
-      "link": "https://www.pisos.com/comprar/piso-san_luis_san_juan_santa_isabel06800-62589492976_104700/",
-      "price": "132.000 €",
-      "price_val": 132000,
-      "img": "https://fotos.imghs.net/mm-wp/1047/783/1047_239783_0_202603101334430581163.jpeg",
-      "chars": [
-        "4 habs.",
-        "2 baños",
-        "109 m²",
-        "Bajo"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -2150,6 +2231,18 @@
       "source": "Pisos.com"
     },
     {
+      "title": "Casa en Casco Histórico",
+      "link": "https://www.pisos.com/comprar/casa-merida_casco_historico-63423590507_527273/",
+      "price": "140.000 €",
+      "price_val": 140000,
+      "img": "https://fotos.imghs.net/mm-wp/527273/63423590507.527273/527273_63423590507_ff59b0c2-bc9a-4ed0-a1d4-ae1c869fcc20.jpg",
+      "chars": [
+        "610 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
       "title": "Piso en Casco Histórico",
       "link": "https://www.pisos.com/comprar/piso-merida_casco_historico-55896229862_106500/",
       "price": "142.000 €",
@@ -2222,6 +2315,21 @@
       "source": "Pisos.com"
     },
     {
+      "title": "Piso en Casco Histórico",
+      "link": "https://www.pisos.com/comprar/piso-merida_casco_historico-61738444882_104700/",
+      "price": "145.000 €",
+      "price_val": 145000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/639/1047_238639_0_202602241936431171023.jpeg",
+      "chars": [
+        "4 habs.",
+        "2 baños",
+        "129 m²",
+        "3ª planta"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
       "title": "Piso en Reina Sofía-Salesianos-Bodegones",
       "link": "https://www.pisos.com/comprar/piso-reina_sofia_salesianos_bodegones-63336654271_527273/",
       "price": "145.000 €",
@@ -2266,21 +2374,6 @@
       "source": "Pisos.com"
     },
     {
-      "title": "Piso en Casco Histórico",
-      "link": "https://www.pisos.com/comprar/piso-merida_casco_historico-57541562040_527273/",
-      "price": "146.000 €",
-      "price_val": 146000,
-      "img": "https://fotos.imghs.net/mm-wp/527273/57541562040.527273/527273_57541562040_7bc46e90-0497-46d5-bcca-d32736707c16.jpg",
-      "chars": [
-        "3 habs.",
-        "1 baño",
-        "85 m²",
-        "2ª planta"
-      ],
-      "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
       "title": "Piso en 06801-2",
       "link": "https://www.pisos.com/comprar/piso-los_milagros_la_corchera06800-63415219331_103800/",
       "price": "146.000 €",
@@ -2311,15 +2404,15 @@
       "source": "Pisos.com"
     },
     {
-      "title": "Piso en San Luis-San Juan-Santa Isabel",
-      "link": "https://www.pisos.com/comprar/piso-san_luis_san_juan_santa_isabel06800-61681302603_104700/",
-      "price": "149.000 €",
-      "price_val": 149000,
-      "img": "https://fotos.imghs.net/mm-wp/1047/431/1047_238431_0_202602111339386999844.jpeg",
+      "title": "Piso en Casco Histórico",
+      "link": "https://www.pisos.com/comprar/piso-merida_casco_historico-57541562040_527273/",
+      "price": "146.000 €",
+      "price_val": 146000,
+      "img": "https://fotos.imghs.net/mm-wp/527273/57541562040.527273/527273_57541562040_7bc46e90-0497-46d5-bcca-d32736707c16.jpg",
       "chars": [
         "3 habs.",
-        "2 baños",
-        "142 m²",
+        "1 baño",
+        "85 m²",
         "2ª planta"
       ],
       "agency": "logo",
@@ -2335,6 +2428,21 @@
         "3 habs.",
         "1 baño",
         "90 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
+      "title": "Piso en San Luis-San Juan-Santa Isabel",
+      "link": "https://www.pisos.com/comprar/piso-san_luis_san_juan_santa_isabel06800-61681302603_104700/",
+      "price": "149.000 €",
+      "price_val": 149000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/431/1047_238431_0_202602111339386999844.jpeg",
+      "chars": [
+        "3 habs.",
+        "2 baños",
+        "142 m²",
+        "2ª planta"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -2881,6 +2989,20 @@
       "source": "Pisos.com"
     },
     {
+      "title": "Chalet pareado en Los Milagros-La Corchera",
+      "link": "https://www.pisos.com/comprar/chalet_pareado-los_milagros_la_corchera06800-61674677472_104700/",
+      "price": "189.000 €",
+      "price_val": 189000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/023/1047_237023_0_202602111718452582727.jpeg",
+      "chars": [
+        "6 habs.",
+        "2 baños",
+        "145 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
       "title": "Piso en Los Milagros-La Corchera",
       "link": "https://www.pisos.com/comprar/piso-los_milagros_la_corchera06800-63356443584_104700/",
       "price": "189.000 €",
@@ -3011,15 +3133,15 @@
       "source": "Pisos.com"
     },
     {
-      "title": "Casa en Casco Histórico",
-      "link": "https://www.pisos.com/comprar/casa-merida_casco_historico-61741772056_104700/",
+      "title": "Casa adosada en Los Milagros-La Corchera",
+      "link": "https://www.pisos.com/comprar/casa_adosada-los_milagros_la_corchera06800-61761968526_104700/",
       "price": "200.000 €",
       "price_val": 200000,
-      "img": "https://fotos.imghs.net/mm-wp/1047/503/1047_238503_0_202602111046585795275.jpeg",
+      "img": "https://fotos.imghs.net/mm-wp/1047/718/1047_238718_0_202602271924526654371.jpg",
       "chars": [
-        "4 habs.",
-        "1 baño",
-        "150 m²"
+        "3 habs.",
+        "3 baños",
+        "154 m²"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -3053,6 +3175,20 @@
       "source": "Pisos.com"
     },
     {
+      "title": "Casa en Casco Histórico",
+      "link": "https://www.pisos.com/comprar/casa-merida_casco_historico-61741772056_104700/",
+      "price": "200.000 €",
+      "price_val": 200000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/503/1047_238503_0_202602111046585795275.jpeg",
+      "chars": [
+        "4 habs.",
+        "1 baño",
+        "150 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
       "title": "Casa en Centro",
       "link": "https://www.pisos.com/comprar/casa-merida_casco_historico-60890427242_106000/",
       "price": "200.000 €",
@@ -3062,20 +3198,6 @@
         "4 habs.",
         "1 baño",
         "145 m²"
-      ],
-      "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
-      "title": "Casa rústica en San Luis-San Juan-Santa Isabel",
-      "link": "https://www.pisos.com/comprar/casa_rustica-san_luis_san_juan_santa_isabel06800-58430988558_106500/",
-      "price": "200.000 €",
-      "price_val": 200000,
-      "img": "https://fotos.imghs.net/mm-wp/1065/156/1065_IJ2269-99071156_1_202603030856429516271.jpg",
-      "chars": [
-        "4 habs.",
-        "2 baños",
-        "170 m²"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -3181,20 +3303,6 @@
       "source": "Pisos.com"
     },
     {
-      "title": "Casa adosada en Los Milagros-La Corchera",
-      "link": "https://www.pisos.com/comprar/casa_adosada-los_milagros_la_corchera06800-63339441704_104700/",
-      "price": "220.000 €",
-      "price_val": 220000,
-      "img": "https://fotos.imghs.net/mm-wp/1047/178/1047_240178_0_202604161003472282938.jpeg",
-      "chars": [
-        "3 habs.",
-        "2 baños",
-        "90 m²"
-      ],
-      "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
       "title": "Casa en Mérida",
       "link": "https://www.pisos.com/comprar/casa-merida_casco_historico-60865579486_106000/",
       "price": "220.000 €",
@@ -3204,6 +3312,20 @@
         "2 habs.",
         "2 baños",
         "126 m²"
+      ],
+      "agency": "logo",
+      "source": "Pisos.com"
+    },
+    {
+      "title": "Casa adosada en Los Milagros-La Corchera",
+      "link": "https://www.pisos.com/comprar/casa_adosada-los_milagros_la_corchera06800-63339441704_104700/",
+      "price": "220.000 €",
+      "price_val": 220000,
+      "img": "https://fotos.imghs.net/mm-wp/1047/178/1047_240178_0_202604161003472282938.jpeg",
+      "chars": [
+        "3 habs.",
+        "2 baños",
+        "90 m²"
       ],
       "agency": "logo",
       "source": "Pisos.com"
@@ -3613,20 +3735,6 @@
       "source": "Pisos.com"
     },
     {
-      "title": "Chalet en Los Milagros-La Corchera",
-      "link": "https://www.pisos.com/comprar/chalet-los_milagros_la_corchera06800-62587912759_106400/",
-      "price": "320.000 €",
-      "price_val": 320000,
-      "img": "https://fotos.imghs.net/mm-wp/1064/270/1064_IJ3336-100575270_1_202603300943143540705.jpg",
-      "chars": [
-        "5 habs.",
-        "2 baños",
-        "184 m²"
-      ],
-      "agency": "Particular",
-      "source": "Pisos.com"
-    },
-    {
       "title": "Chalet en Casco Histórico",
       "link": "https://www.pisos.com/comprar/chalet-merida_casco_historico-62557337995_108500/",
       "price": "330.000 €",
@@ -3947,20 +4055,6 @@
         "Principal"
       ],
       "agency": "logo",
-      "source": "Pisos.com"
-    },
-    {
-      "title": "Chalet en Casco Histórico",
-      "link": "https://www.pisos.com/comprar/chalet-merida_casco_historico-62589422030_106400/",
-      "price": "950.000 €",
-      "price_val": 950000,
-      "img": "https://fotos.imghs.net/mm-wp/1064/264/1064_IJ3336-100575264_1_202603300943140393237.jpg",
-      "chars": [
-        "10 habs.",
-        "3 baños",
-        "918 m²"
-      ],
-      "agency": "Particular",
       "source": "Pisos.com"
     },
     {
